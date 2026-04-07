@@ -1,0 +1,12 @@
+name: secure-openenv
+description: Adaptive secure system under cyber attacks
+
+entry_point: server.app:app
+
+tasks:
+  - name: easy
+    description: survive low attacks
+  - name: medium
+    description: balance performance and security
+  - name: hard
+    description: defend against strong attacks
