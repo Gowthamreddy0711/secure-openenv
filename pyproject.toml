@@ -1,0 +1,15 @@
+[project]
+name = "secure-openenv"
+version = "0.1.0"
+description = "Adaptive Secure File Sharing OpenEnv Environment"
+authors = [
+    { name="Gowtham" }
+]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "requests"
+]
+
+[tool.openenv]
+entry_point = "server.app:app"
